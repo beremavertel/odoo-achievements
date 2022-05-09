@@ -1,0 +1,15 @@
+<odoo>
+    <data>
+
+        <record model="ir.ui.view" id="achievement_tree_view">
+            <field name="name">Achievement Tree View</field>
+            <field name="model">achievement.achievement</field>
+            <field name="arch" type="xml">
+                <tree string="Stuff">
+                    <field name="model_name"/>
+                    <field name="number_created"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>
